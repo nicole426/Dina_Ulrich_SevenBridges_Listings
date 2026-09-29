@@ -18,11 +18,17 @@
    .section-label { color: #1a3e5c; font-size: 0.85em; font-weight: 600; text-transform: uppercase; letter-spacing: 0.15em; margin: 10px 0 14px; }
    .listing-card { background: white; border: 1px solid #e8e8e8; border-left: 4px solid #00a8e1; padding: 25px 25px 25px 30px; margin-bottom: 20px; display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: start; transition: all 0.3s ease; }
    .listing-card:hover { border-left-color: #1a3e5c; box-shadow: 0 4px 20px rgba(26, 62, 92, 0.15); transform: translateX(5px); }
-   .listing-card.featured { border: 2px solid #c8102e; border-left: 6px solid #c8102e; background: #fdf6f7; margin-bottom: 36px; }
-   .listing-card.featured:hover { border-left-color: #c8102e; }
+   .listing-card.featured { border: 3px solid #1a3e5c; background: #f2f4f6; margin-bottom: 36px; grid-template-columns: 1fr; text-align: center; padding: 32px 30px; }
+   .listing-card.featured:hover { border-left-color: #1a3e5c; transform: none; }
+   .featured .listing-address { font-weight: 700; font-size: 1.6em; }
+   .featured .listing-price { font-weight: 700; color: #1a3e5c; font-size: 2.3em; }
+   .featured .listing-details { justify-content: center; }
+   .featured .listing-detail-value { font-weight: 800; }
+   .featured .listing-description { color: #333; font-weight: 600; max-width: 900px; margin-left: auto; margin-right: auto; }
+   .featured .listing-cta { text-align: center; }
    .listing-address { color: #1a3e5c; font-size: 1.4em; font-weight: 500; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.03em; }
    .listing-badge { display: inline-block; padding: 3px 10px; font-size: 0.5em; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; border-radius: 3px; margin-left: 10px; vertical-align: middle; }
-   .badge-featured { background: #c8102e; color: #ffffff; }
+   .badge-featured { background: #1a3e5c; color: #ffffff; }
    .badge-reduced { background: #fff3cd; color: #856404; }
    .badge-new { background: #cfe2ff; color: #084298; }
    .listing-price { color: #000000; font-size: 2em; font-weight: 300; margin-bottom: 10px; }
@@ -36,8 +42,8 @@
    .listing-office { color: #888; font-size: 0.78em; margin-top: 8px; }
    .view-listing-btn { background: #00a8e1; color: white; padding: 14px 30px; text-decoration: none; font-size: 0.95em; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; display: inline-block; transition: all 0.3s ease; border-radius: 4px; text-align: center; }
    .view-listing-btn:hover { background: #0088b8; transform: translateY(-2px); }
-   .featured .view-listing-btn { background: #c8102e; }
-   .featured .view-listing-btn:hover { background: #a00d25; }
+   .featured .view-listing-btn { background: #1a3e5c; font-weight: 700; }
+   .featured .view-listing-btn:hover { background: #0d1f2d; }
    .back-button { background: #1a3e5c; color: white; padding: 12px 25px; text-decoration: none; font-size: 0.9em; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; display: inline-block; margin-bottom: 20px; border-radius: 4px; }
    .back-button:hover { background: #0d1f2d; }
    .disclaimer { color: #999; font-size: 0.75em; line-height: 1.6; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e8e8e8; }
